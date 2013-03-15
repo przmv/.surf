@@ -27,7 +27,7 @@ var surf = (function () {
         },
 
         isEditable = function (element) {
-            var nodename = element.nodeName.toLowerCase;
+            var nodename = element.nodeName.toLowerCase();
 
             if ((nodename === 'textarea')) {
                 return true;
